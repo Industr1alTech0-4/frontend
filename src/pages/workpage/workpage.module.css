@@ -1,0 +1,17 @@
+.green{
+    background-color: rgb(108, 216, 0);
+    color: black;
+}
+
+.procSpace {
+    margin-inline: 10%; 
+    margin-top: 3vh;
+
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+}
+
+.procSpace > button {
+    width: 150px;
+}
