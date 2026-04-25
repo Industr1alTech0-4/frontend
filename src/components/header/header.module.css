@@ -6,6 +6,8 @@ header {
     padding-inline: 40px;
     align-items: center;
     justify-content: space-between;
+    
+    padding: 10px;
 }
 
 header > nav {
@@ -14,13 +16,4 @@ header > nav {
     gap: 10px;
 }
 
-header > div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-}
 
-img{
-    height: 60px;
-}

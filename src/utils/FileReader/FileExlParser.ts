@@ -1,6 +1,6 @@
 import ExcelJS from 'exceljs'
 
-export async function FileParser(file: File) {
+export async function FileExlParser(file: File) {
     const buffer = await file.arrayBuffer();
     const workbook = new ExcelJS.Workbook();
     await workbook.xlsx.load(buffer);

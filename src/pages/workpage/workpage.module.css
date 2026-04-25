@@ -5,13 +5,62 @@
 
 .procSpace {
     margin-inline: 10%; 
-    margin-top: 3vh;
+    margin-block: 3vh;
 
     display: flex; 
     flex-direction: column;
     gap: 20px;
+
+
 }
 
 .procSpace > button {
     width: 150px;
+}
+
+.createPomp{
+    width: 100%;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.createPomp > input {
+    width: 40%; 
+    height: 50px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.createPomp > button {
+    width: 10%;
+}
+
+.chosenPomp{
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+  
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 20px;
+}
+
+.chosenPomp > select {
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.chosenPomp > button {
+    width: 10%;
 }

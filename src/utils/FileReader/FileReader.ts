@@ -1,3 +1,5 @@
+import { FileExlParser } from "./FileExlParser";
+import { FileCsvParser } from "./FileCsvParser";
 
 export async function FileReador(event: React.ChangeEvent<HTMLInputElement, HTMLInputElement>) {
 
@@ -8,10 +10,10 @@ export async function FileReador(event: React.ChangeEvent<HTMLInputElement, HTML
     const ext = file.name.split('.')?.pop()?.toLowerCase() || '';
 
     if (ext === 'xlsx') {
-        return file;
+        return  FileExlParser(file);
     }
     else if (ext === 'csv') {
-        return file; 
+        return FileCsvParser(file); 
     }
 
     return null;
