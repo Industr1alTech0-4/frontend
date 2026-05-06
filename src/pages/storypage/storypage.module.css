@@ -18,32 +18,11 @@
     width: 150px;
 }
 
-.createPomp{
-    width: 100%;
 
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px;
-
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-}
-
-.createPomp > input {
-    width: 40%; 
-    height: 50px;
-    border-radius: 10px;
-    font-size: large;
-}
-
-.createPomp > button {
-    width: 10%;
-}
 
 .chosenPomp{
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 10px;
     border-radius: 10px;
   
@@ -65,11 +44,38 @@
     width: 10%;
 }
 
-.saveBtnBlock{
-    display: flex;
-    flex-direction: row-reverse;
+
+
+.downloadButtonContainer {
+    margin-top: 20px;
+    text-align: end;
 }
 
-.saveBtnBlock > button {
-    background-color: rgb(246, 41, 82);
+.downloadButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
 }
+
+.downloadButton:hover {
+    background-color: #45a049;
+}
+
+.downloadButton:active {
+    transform: scale(0.98);
+}
+
+.storyInfo {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+   
+    font-size: larger;
+}
+

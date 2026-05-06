@@ -1,7 +1,7 @@
 import { Chart } from "react-google-charts";
 
 export function chart(name: string, data_: any) {
-    console.log(data_)
+    // console.log(data_)
     
     const dataInData: (string | number)[][] = [
         ["Строка", "Значение"]  
